@@ -1,4 +1,10 @@
 /* GENERAL STYLES START */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: Eina04;
+  src: url("./fonts/Eina04-Bold.otf");
+}
 
 :root {
   --main-text-color: rgba(18, 36, 89, 0.75);
@@ -158,7 +164,7 @@ header {
   align-items: center;
 }
 .nav__item {
-  font-family: "Eina04-Bold", "Times New Roman", Times, serif;
+  font-family: "Eina", "Times New Roman", Times, serif;
   font-size: 2rem;
   line-height: 2rem;
   color: var(--heading-color);
@@ -583,7 +589,7 @@ footer {
   padding: 72px 0 48px;
 }
 .footer__credentials {
-  font-family: "Eina04-SemiBold", "Times New Roman", Times, serif;
+  font-family: "Eina04", "Times New Roman", Times, serif;
   margin: 36px 0;
   font-style: normal;
   font-weight: normal;
