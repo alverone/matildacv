@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: Eina04;
-  src: url("./fonts/Eina04-Bold.otf");
+  src: url("./fonts/Eina04-Bold.otf") format("opentype");
 }
 
 :root {
@@ -164,7 +164,7 @@ header {
   align-items: center;
 }
 .nav__item {
-  font-family: "Eina", "Times New Roman", Times, serif;
+  font-family: "Eina04", "Times New Roman", Times, serif;
   font-size: 2rem;
   line-height: 2rem;
   color: var(--heading-color);
