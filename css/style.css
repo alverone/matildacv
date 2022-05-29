@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: Eina04;
-  src: url("./fonts/Eina04-Bold.otf") format("opentype");
+  src: url("../fonts/Eina04-Bold.otf") format("opentype");
 }
 
 :root {
@@ -268,7 +268,7 @@ aside {
   width: 70%;
 }
 .percentage-container__bar_100 {
-  width: 100%;
+  width: 99.8%;
 }
 .aside__subheading {
   color: #0d0d0d;
